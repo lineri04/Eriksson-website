@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eriksson</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Tuto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="Skärmbild 2022-09-30 135032.png">
+  <script src="https://kit.fontawesome.com/42339a690f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <!-- Navbar -->
+  <heder>
+  <nav>
+  <div class="nav-wrapper">
+    <div class="menu">
+      <h2>Eriksson</h2>
+      <ul>
+        <li> <a href="#home">Home</a></li>
+        <li> <a href="#arb">Arbeten</a></li>
+        <li> <a href="#about">About</a></li>
+      </ul>
+      <div class="search-container">
+        <input type="search" id="search" value="" onchange="ouvrirPage()" placeholder="Search">
+        <button type="submit"><i class="fa fa-search" onclick="ouvrirPage()"></i></button> 
+      </div>
+      <script>
+        function ouvrirPage() {
+            var a = document.getElementById("search").value;
+    
+            if (a === "Home") {
+                window.open("http://webbem.se/elever/2022-23/lineri04/");
+            }
+
+            if (a === "Team") {
+                window.open("http://webbem.se/elever/2022-23/lineri04/positionering_och_z-index/");
+            }
+
+            if (a === "Newsletter") {
+                window.open("http://webbem.se/elever/2022-23/lineri04/Newsletter.htm");
+            }
+
+            if (a === "Support") {
+                window.open("http://webbem.se/elever/2022-23/lineri04/Support.htm");
+            }
+    
+    
+        }
+     </script>
+     
+  </div>
+  </div>
+  </nav>
+  </heder>
+  <!-- Navbar slut -->
+  <main>
+    <div class="background-img">
+        <div class="headline" id="home">
+          <h1>Eriksson</h1>
+      </div>
+    </div>
+  </main>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="margin">
+    <div class="arbeten">
+      <h2 id="arb">Project:</h2>
+    </div>
+          <ul>
+            <li>Team</li>
+            <li>Support</li>
+            <li>Newsletter</li>
+          </ul>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+  </div>
+  <div class="text">
+    <h2>Text</h2>
+  </div>
+    <div class="social-wrapper">
+      <div class="support-wrapper">
+        <h3>Support</h3>
+        <ul>
+          <br>
+          <li><a href="http://webbem.se/elever/2022-23/lineri04/Support.htm">Support</a></li>
+        </ul>
+      </div>
+      <div class="about-wrapper">
+        <h3 id="about">About me</h3>
+        <ul>
+          <br>
+          <li><a href="http://webbem.se/elever/2022-23/lineri04/Newsletter.htm">Newsletter</a></li>
+          <li><a href="http://webbem.se/elever/2022-23/lineri04/positionering_och_z-index/">Team</a></li>
+        </ul>
+      </div>
+     <div class="media">
+      <div class="platformer">
+        <a href="https://www.instagram.com/erlkssonlinus/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/linus.eriksson.56614/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://open.spotify.com/user/ct0p7nhpzpk6xi1w53du6cpcq?si=94750cbf324a4258"><i class="fa-brands fa-spotify"></i></a>
+      </div>
+      <p>Eriksson © 2022</p>
+     </div>
+    </div>
+  </body>
+</html>
