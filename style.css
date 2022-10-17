@@ -151,7 +151,7 @@ color: rgb(173, 165, 165);
 
 .social-wrapper a:link {
 color: rgb(173, 165, 165);
-background-color: transparent;
+background-color: rgb(173, 165, 165);
 text-decoration: none;
 }
 
